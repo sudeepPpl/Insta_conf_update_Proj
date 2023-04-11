@@ -1,0 +1,10 @@
+{  
+  "Yamaha":
+  {
+   "Model": ["MTX3", "MTX5_D"]
+  },
+  "PeopleLink":
+  {
+   "Model": ["MDSP_BU", "MDSP_N"]
+  }
+}

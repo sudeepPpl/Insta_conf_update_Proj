@@ -1,0 +1,32 @@
+{
+  "Visca" :
+  {
+    "Inq" :
+    {
+      "Pwr" : {"Cmd":"81~09~04~00~FF", "AckOn":"90~50~02~FF", "AckOff":"90~50~03~FF"}
+    },
+    "Ctr" :
+    {
+      "CmdPowOn"      : "81~01~04~00~02~FF",
+      "CmdPowOff"     : "81~01~04~00~03~FF",
+      "CmdZoomIn"     : "81~01~04~07~20~FF",
+      "CmdZoomOut"    : "81~01~04~07~30~FF",
+      "CmdZoomStop"   : "81~01~04~07~00~FF~81~01~04~07~00~FF",
+
+      "CmdMoveUp"     : "81~01~06~01~05~05~03~01~FF",
+      "CmdMoveDown"   : "81~01~06~01~05~05~03~02~FF",
+      "CmdMoveLeft"   : "81~01~06~01~05~05~01~03~FF",
+      "CmdMoveRight"  : "81~01~06~01~05~05~02~03~FF",
+      "CmdMoveStop"   : "81~01~06~01~09~09~03~03~FF",
+
+      "CmdPreset01"   : "81~01~04~3F~02~01~FF",
+      "CmdPreset02"   : "81~01~04~3F~02~02~FF",
+      "CmdPreset03"   : "81~01~04~3F~02~03~FF",
+      "CmdPreset04"   : "81~01~04~3F~02~04~FF",
+      "CmdPreset05"   : "81~01~04~3F~02~05~FF",
+
+      "AckAccepted"   : "90~41~FF",
+      "AckExecuted"   : "90~51~FF"
+    }
+  }
+}

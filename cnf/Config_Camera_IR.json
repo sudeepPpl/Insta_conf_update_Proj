@@ -1,0 +1,39 @@
+{
+  "PeopleLink_WHD_NEC" :  
+  {
+    "CmdPowOnOff"   : "0x22DDD827",
+    "CmdZoomIn"     : "0x22DD827D",
+    "CmdZoomOut"    : "0x22DD7887",
+    "CmdMoveUp"     : "0x22DDA05F",
+    "CmdMoveDown"   : "0x22DDB04F",
+    "CmdMoveLeft"   : "0x22DD10EF",
+    "CmdMoveRight"  : "0x22DD50AF",
+    "CmdFocusFar"   : "0x22DD00FF",
+    "CmdFocusIn"    : "0x22DD20DF",
+
+    "CmdPreset01"   : "0x22DD30CF",
+    "CmdPreset02"   : "0x22DD8877",
+    "CmdPreset03"   : "0x22DD708F",
+    "CmdPreset04"   : "0x22DD08F7",
+    "CmdPreset05"   : "0x22DDA857"
+  },
+  "PeopleLink_WHD_RC5" : 
+  {
+    "CmdPowOnOff"   : "0xFF08F7",
+    "CmdZoomIn"     : "0xFF708F",
+    "CmdZoomOut"    : "0xFF6897",
+    "CmdMoveUp"     : "0xFF9867",
+    "CmdMoveDown"   : "0xFF906F",
+    "CmdMoveLeft"   : "0xFFB847",
+    "CmdMoveRight"  : "0xFFD827",
+    "CmdFocusFar"   : "0xFF32CD",
+    "CmdFocusIn"    : "0xFF00FF",
+
+    "CmdPreset01"   : "0xFF609F0xFFFFFFFF",
+    "CmdPreset02"   : "0xFF8877",
+    "CmdPreset03"   : "0xFFF807",
+    "CmdPreset04"   : "0xFFB847",
+    "CmdPreset05"   : "0xFF807F"
+  }
+}
+

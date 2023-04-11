@@ -1,0 +1,40 @@
+{
+  "PeopleLink_HMS_41FHD_RC5" :  
+  {
+    "Settings":
+    {
+      "InQty":"4", "OutQty":"1"
+    },
+    "Ctr" : 
+    [
+      {"source11" : "0xFFB04F", "source12" : "0xFF9867", "source13" : "0xFFD827", "source14" : "0xFF807F", "MuteCmd1" : ""}
+    ]
+  },
+  "PeopleLink_HMS_42FHD_RC5" :  
+  {
+    "Settings":
+    {
+      "InQty":"4", "OutQty":"2"
+    },
+    "Ctr" : 
+    [
+      {"source11" : "0xFFB04F", "source12" : "0xFF9867", "source13" : "0xFFD827", "source14" : "0xFF807F", "MuteCmd1" : ""},
+      {"source21" : "0xFF8877", "source22" : "0xFFA857", "source23" : "0xFFE817", "source24" : "0xFF609F", "MuteCmd2" : ""}
+    ]
+  },
+  "PeopleLink_HMS_44FHD_RC5" :  
+  {
+    "Settings":
+    {
+      "InQty":"4", "OutQty":"4"
+    },
+    "Ctr" : 
+    [
+      {"source11" : "0xFFB04F", "source12" : "0xFF9867", "source13" : "0xFFD827", "source14" : "0xFF807F", "MuteCmd1" : "11"},
+      {"source21" : "0xFF8877", "source22" : "0xFFA857", "source23" : "0xFFE817", "source24" : "0xFF609F", "MuteCmd2" : "22"},
+      {"source31" : "0xFFB04F", "source32" : "0xFF9867", "source33" : "0xFFD827", "source34" : "0xFF807F", "MuteCmd3" : "33"},
+      {"source41" : "0xFF8877", "source42" : "0xFFA857", "source43" : "0xFFE817", "source44" : "0xFF609F", "MuteCmd4" : ""}
+    ]
+  }
+}
+

@@ -1,0 +1,38 @@
+{
+	"IC":
+	{
+		"IC_Type":"RSI-552",
+		"UserName":"Admin",
+		"Psw":"abcd",
+		"IPAddr":"192.168.2.161",
+		"Port":"80",
+		"Mode":"NM",
+		"logoPath":"logo.png",
+		"RelaySwitch":
+		[
+			{"Name":"Alaram","Type":"Toggle"},
+			{"Name":"Projector","Type":"Toggle"},
+			{"Name":"Door Lock","Type":"Toggle"},
+			{"Name":"Fan","Type":"Toggle"},
+			{"Name":"LED","Type":"Toggle"},
+			{"Name":"T.V.","Type":"Toggle"},
+			{"Name":"Tube Light","Type":"Toggle"},
+			{"Name":"Light","Type":"Toggle"},
+			{"Name":"Screen Down","Type":"Push"},
+			{"Name":"Screen Up","Type":"Push"}
+		],
+		"AnalogDevice":
+		[
+			{"Name":"Zone-01"},
+			{"Name":"Zone-02"},
+			{"Name":"Zone-03"}
+		],
+		"DigitalDevices":
+		[
+			{"Name":"","Device":"","Maker":"","Model":"","ProtocolSerial":""},
+			{"Name":"HDMI Switcher","Device":"HDMISwitcher","Maker":"PeopleLink","Model":"HMS_42FHD","ProtocolSerial":"PL_HMS_42FHD"},
+			{"Name":"","Device":"","Maker":"","Model":"","ProtocolSerial":"","ProtocolIR":""},
+			{"Name":"","Device":"","Maker":"","Model":"","ProtocolSerial":"", "ProtocolIR" : ""},
+			{"Name":"DSP","Device":"DSP","Maker":"PeopleLink","Model":"MDSP_N","ProtocolSerial":"PL_MDSP_N", "ProtocolIR" : ""},
+			{"Name":"Projector","Device":"Projector","Maker":"Epson","Model":"EB_X05","ProtocolSerial":"EPSON_EB_2265U","ProtocolIR":"EPSON_EB_NEC"},
+			{"Name":"","Device":"","Maker":"","Model":"","ProtocolSerial":"","ProtocolIR":""}]}}

@@ -1,0 +1,49 @@
+{
+	"PM":
+	{
+		"Start":
+		[
+			{"PortType":"Serial", "PortId":"01", "WaitTimeInMS":"0", "Cmd":"81~01~04~00~03~FF"},
+			{"PortType":"Relay", 	"PortId":"01", "WaitTimeInMS":"1000", "Cmd":"1"},
+			{"PortType":"Serial", "PortId":"02", "WaitTimeInMS":"1000", "Cmd":"6B~61~20~31~20~30~31~0D"},
+			{"PortType":"Analog", 	"PortId":"02", "WaitTimeInMS":"5000", "Cmd":"1"},
+			{"PortType":"Relay", 	"PortId":"03", "WaitTimeInMS":"1000", "Cmd":"1"},
+			{"PortType":"IR", 	"PortId":"04", "WaitTimeInMS":"5000", "Cmd":"1"},
+			{"PortType":"Relay", 	"PortId":"05", "WaitTimeInMS":"1000", "Cmd":"1"}
+		],
+
+		"Shut":
+		[
+			{"PortType":"Relay", 	"PortId":"01", "WaitTimeInMS":"1000", "Cmd":"0"},
+			{"PortType":"Serial", "PortId":"01", "WaitTimeInMS":"1000", "Cmd":"6B~61~20~31~20~30~30~0D"},
+			{"PortType":"Relay", 	"PortId":"02", "WaitTimeInMS":"0", "Cmd":"0"},
+			{"PortType":"Relay", 	"PortId":"03", "WaitTimeInMS":"0", "Cmd":"0"},
+			{"PortType":"Relay", 	"PortId":"04", "WaitTimeInMS":"0", "Cmd":"0"},
+			{"PortType":"Relay", 	"PortId":"05", "WaitTimeInMS":"0", "Cmd":"0"}
+		]
+	},
+
+	"VM":
+	{
+		"Start":
+		[
+			{"PortType":"Serial", "PortId":"02", "WaitTimeInMS":"0", "Cmd":"6B~61~20~31~20~30~31~0D"},
+			{"PortType":"Relay", 	"PortId":"01", "WaitTimeInMS":"0", "Cmd":"1"},
+			{"PortType":"Serial", "PortId":"01", "WaitTimeInMS":"0", "Cmd":"81~01~04~00~02~FF"},
+			{"PortType":"Relay",  "PortId":"02", "WaitTimeInMS":"0", "Cmd":"0"},
+			{"PortType":"Relay",  "PortId":"03", "WaitTimeInMS":"0", "Cmd":"0"},
+			{"PortType":"Relay",  "PortId":"04", "WaitTimeInMS":"0", "Cmd":"0"},
+			{"PortType":"Relay",  "PortId":"05", "WaitTimeInMS":"0", "Cmd":"0"}		],
+
+		"Shut":
+		[
+			{"PortType":"Serial", "PortId":"02", "WaitTimeInMS":"0", "Cmd":"6B~61~20~31~20~30~30~0D"},
+			{"PortType":"Relay",  "PortId":"01", "WaitTimeInMS":"0", "Cmd":"0"},
+			{"PortType":"Serial", "PortId":"01", "WaitTimeInMS":"0", "Cmd":"81~01~04~00~03~FF"},
+			{"PortType":"Relay",  "PortId":"02", "WaitTimeInMS":"0", "Cmd":"1"},
+			{"PortType":"Relay",  "PortId":"03", "WaitTimeInMS":"0", "Cmd":"1"},
+			{"PortType":"Relay",  "PortId":"04", "WaitTimeInMS":"0", "Cmd":"1"},
+			{"PortType":"Relay",  "PortId":"05", "WaitTimeInMS":"0", "Cmd":"1"}
+		]
+	}
+}

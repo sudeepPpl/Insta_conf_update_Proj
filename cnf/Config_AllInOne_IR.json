@@ -1,0 +1,15 @@
+{
+  "AllInOne_NEC" : 
+  {
+    "PowOnOff"      : "0x00FF08F7",
+    "LampOnOff"     : "0x00FF609F",
+    "Freeze"        : "0x00FF8877",
+    "Rotate"        : "0x00FFF807",
+    "Tele"          : "0x00FF6897",
+    "Wide"          : "0x00FF708F",
+    "Far"           : "0x00FF32CD",
+    "Near"          : "0x00FF00FF",
+    "Expand"        : "0x00FF02FD"
+  }
+}
+
