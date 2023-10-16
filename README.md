@@ -13,3 +13,8 @@ https://github.com/sudeepPpl/Insta_conf_update_Proj/raw/main/Monitor_IR_20mar23.
 Projector config Changes : download using below link and extarct to app data/files/ folder
 
 https://github.com/sudeepPpl/Insta_conf_update_Proj/raw/main/Proj_conf_14feb23.zip
+
+ProDSP config files below link
+
+https://github.com/sudeepPpl/Insta_conf_update_Proj/raw/main/conf_7july23_proDSP.zip
+
