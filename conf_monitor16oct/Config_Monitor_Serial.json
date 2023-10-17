@@ -1,0 +1,106 @@
+{   
+  "LG_SE3B_SE3KB_SL5B" :
+  {
+    "Inq" :  
+    {
+    	"Pwr" : 
+  			{"Cmd":"6B~61~20~31~20~46~46~0D", "Ack":"4F~4B~30~31"},
+     	"MuteUnmute" : 
+  			{"Cmd":"6B~65~20~31~20~46~46~0D", "Ack":"4F~4B~30~31"}
+   	},
+   	
+   	"Ctr" :  
+    {
+      "CmdPwrOff"   : "6B~61~20~31~20~30~30~0D",
+      "CmdPwrOn"   	: "6B~61~20~31~20~30~31~0D",
+
+      "CmdInput"    : "6D~63~20~31~20~30~42~0D",
+  		"CmdSelect"   : "6D~63~20~31~20~34~33~0D",
+  		"CmdExit"   	: "6D~63~20~31~20~35~42~0D",
+  		"CmdMute"     : "6B~65~20~31~20~30~30~0D",
+      "CmdUnMute"   : "6B~65~20~31~20~30~31~0D",
+
+      "CmdVolUp"    : "6D~63~20~31~20~30~32~0D",
+      "CmdVolDown"  : "6D~63~20~31~20~30~33~0D",
+
+      "CmdOk"       : "6D~63~20~31~20~34~34~0D",				
+      "CmdMovUp"    : "6D~63~20~31~20~34~30~0D",
+      "CmdMovDown"  : "6D~63~20~31~20~34~31~0D",
+      "CmdMovRight" : "6D~63~20~31~20~30~36~0D",
+      "CmdMovLeft"  : "6D~63~20~31~20~30~37~0D",
+
+      "AckOK"	: "4F~4B",
+      "AckNG"	: "4E~47"
+    }
+  },
+  
+  "Peoplelink_S86" :
+  {
+    "Inq" :  
+    {
+      "Pwr" : 
+        {"Cmd":"55~00~45~00~9A", "Ack": "55~00~45~01~9B"},
+      "MuteUnmute" : 
+        {"Cmd":"55~00~65~00~BA", "Ack": "00"}
+    },
+
+    "Ctr" :  
+    {
+      "CmdPwrOff"   : "55~00~8E~0F~F2",
+      "CmdPwrOn"    : "55~00~8E~00~E3",
+
+      "CmdInput"    : "55~00~80~00~D5",
+      "CmdSelect"   : "55~00~14~00~69",
+      "CmdExit"     : "55~00~16~00~6B",
+      "CmdMute"     : "55~00~1A~00~6F",
+      "CmdUnMute"   : "55~00~1A~00~6F",
+
+      "CmdVolUp"    : "55~00~0C~00~61",
+      "CmdVolDown"  : "55~00~0E~00~63",
+
+      "CmdOk"       : "55~00~00~00~55",        
+      "CmdMovUp"    : "55~00~00~01~56",
+      "CmdMovDown"  : "55~00~00~02~57",
+      "CmdMovRight" : "55~00~00~04~59",
+      "CmdMovLeft"  : "55~00~00~03~58",
+
+      "AckOK" : "55~00",
+      "AckNG" : "55~01"
+    }
+  },
+
+  "SAMSUNG_DB43J" :
+  {
+    "Inq" :  
+    {
+      "Pwr" : 
+        {"Cmd":"AA~11~FE~00~0F", "Ack": "AA~FF~00~03~01~11~01~15"},
+      "MuteUnmute" : 
+        {"Cmd":"AA~13~FE~00~11", "Ack": "AA~FF~00~03~01~13~00~16"}
+    },
+
+    "Ctr" :  
+    {
+      "CmdPwrOff"   : "AA~11~FE~01~00~10",
+      "CmdPwrOn"    : "AA~11~FE~01~01~11",
+
+      "CmdInput"    : "AA~14~FE~01~21~34",
+      "CmdSelect"   : "AA~34~FE~01~00~33",
+      "CmdExit"     : "AA~B2~FE~0A~01~00~40~09~04",
+      "CmdMute"     : "AA~13~FE~01~01~13",
+      "CmdUnMute"   : "AA~13~FE~01~00~12",
+
+      "CmdVolUp"    : "AA~62~FE~01~00~61",
+      "CmdVolDown"  : "AA~62~FE~01~01~62",
+
+      "CmdOk"       : "AA~C1~FE~01~16~D6",        
+      "CmdMovUp"    : "AA~C1~FE~01~06~C6",
+      "CmdMovDown"  : "AA~C1~FE~01~86~46",
+      "CmdMovRight" : "AA~C1~FE~01~46~06",
+      "CmdMovLeft"  : "AA~C1~FE~01~46~06",
+
+      "AckOK" : "AA~FF~00~03~01",
+      "AckNG" : "AA~FF~00~03~00"
+    }
+  }
+}

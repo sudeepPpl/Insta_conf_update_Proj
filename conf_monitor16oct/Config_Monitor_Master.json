@@ -1,0 +1,25 @@
+{
+	"LG":
+	{ 
+		"Model": ["32SE3B", "43SE3B", "49SE3B", "55SE3B", "65SE3B", "32SE3KB", "43SE3KB", "49SE3KB", "55SE3KB", "65SE3KB", "43SL5B", "49SL5B", " 55SL5B"]
+	},
+	
+	"Samsung":
+	{
+		"Model": ["DB43J"] 
+  },
+   "Peoplelink":
+	{
+		"Model": ["Peoplelink_S86"] 
+	},
+
+  "EKAA":
+	{
+		"Model": ["EKAA-AIO-M55", "EKAA-AIO-M65"] 
+  },
+
+  "Sony":
+	{
+		"Model": ["SE-KLV"] 
+  }
+}

@@ -22,4 +22,5 @@ ProDSP config files below link for Out 1.2.5,6 channel included
 
 https://github.com/sudeepPpl/Insta_conf_update_Proj/raw/main/conf_16Oct23_proDSP1.zip
 
-
+Peoplelink Monitor serial port control codes added
+https://github.com/sudeepPpl/Insta_conf_update_Proj/raw/main/conf_monitor16oct.zip
