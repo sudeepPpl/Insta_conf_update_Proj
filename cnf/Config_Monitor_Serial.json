@@ -33,6 +33,41 @@
       "AckNG"	: "4E~47"
     }
   },
+  
+  "Peoplelink_S86" :
+  {
+    "Inq" :  
+    {
+      "Pwr" : 
+        {"Cmd":"55~00~45~00~9A", "Ack": "55~00~45~01~9B"},
+      "MuteUnmute" : 
+        {"Cmd":"55~00~65~00~BA", "Ack": "00"}
+    },
+
+    "Ctr" :  
+    {
+      "CmdPwrOff"   : "55~00~8E~0F~F2",
+      "CmdPwrOn"    : "55~00~8E~00~E3",
+
+      "CmdInput"    : "55~00~80~00~D5",
+      "CmdSelect"   : "55~00~14~00~69",
+      "CmdExit"     : "55~00~16~00~6B",
+      "CmdMute"     : "55~00~1A~00~6F",
+      "CmdUnMute"   : "55~00~1A~00~6F",
+
+      "CmdVolUp"    : "55~00~0C~00~61",
+      "CmdVolDown"  : "55~00~0E~00~63",
+
+      "CmdOk"       : "55~00~00~00~55",        
+      "CmdMovUp"    : "55~00~00~01~56",
+      "CmdMovDown"  : "55~00~00~02~57",
+      "CmdMovRight" : "55~00~00~04~59",
+      "CmdMovLeft"  : "55~00~00~03~58",
+
+      "AckOK" : "55~00",
+      "AckNG" : "55~01"
+    }
+  },
 
   "SAMSUNG_DB43J" :
   {

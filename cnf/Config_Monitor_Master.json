@@ -8,6 +8,10 @@
 	{
 		"Model": ["DB43J"] 
   },
+   "Peoplelink":
+	{
+		"Model": ["Peoplelink_S86","Peoplelink-A8","Peoplelink-A10"] 
+	},
 
   "EKAA":
 	{
@@ -17,10 +21,5 @@
   "Sony":
 	{
 		"Model": ["SE-KLV"] 
-  },
-  "Peoplelink":
-	{
-		"Model": ["Peoplelink-A8","Peoplelink-A10"] 
   }
-  
 }

@@ -250,134 +250,7 @@
       ]
     }
   },
-
-  "PL_MDSP_BU" :
-  {
-    "Settings":
-    {
-      "InChnlQty":"2", "OutChnlQty":"0", "ZoneQty":"0", "MaxPreset":"0"
-    },
-
-    "Inq" :
-    {
-      "Preset":
-      {
-        "Cmd":"41"
-      },
-      
-      "DevStatus":
-      { 
-        "Cmd":"41",
-        "Ack":"56~6F~6C~75~6D~65",
-        "AckEmg":"56~6F~6C~75~6D~65~20~55~50",
-        "AckUpdate":"41~20~55~50~0D~0A"
-      },
-      
-      "InMute" :
-      {
-        "Cmd": 
-        [
-          "42",
-          "41"
-        ], 
-        "AckMute":"4D~75~74~65",
-        "AckUnMute":"56~6F~6C~75~6D~65~20"
-      },
-
-      "OutMute" :
-      {
-        "Cmd":
-        [
-          "41"
-        ],
-        "AckMute":"4D~75~74~65",
-        "AckUnMute":"56~6F~6C~75~6D~65~20"
-      },
-
-      "ZoneMute" :
-      {
-        "Cmd": 
-        [
-          "42"
-        ], 
-        "AckMute":"4D~75~74~65",
-        "AckUnMute":"56~6F~6C~75~6D~65~20"
-      }
-    },
-
-    "Ctr" :
-    {
-      "InMute" : 
-      [
-        {"Cmd": "43",  "Ack":"56~6F~6C~75~6D~65~20~4D~75~74~65"},
-        {"Cmd": "44",  "Ack":"4D~69~63~20~4D~75~74~65"}
-      ],
-
-      "InUnMute" : 
-      [
-        {"Cmd": "43",  "Ack":"56~6F~6C~75~6D~65~20~55~6E~4D~75~74~65"},
-        {"Cmd": "44",  "Ack":"4D~69~63~20~55~6E~4D~75~74~65"}
-      ],
-
-      "InVolUp" : 
-      [
-        {"Cmd": "41",  "Ack":"56~6F~6C~75~6D~65~20~55~50", "AckM":""},
-        {"Cmd": "41",  "Ack":"56~6F~6C~75~6D~65~20~55~50", "AckM":""}
-      ],
-
-      "InVolDown" : 
-      [
-        {"Cmd": "42",  "Ack":"56~6F~6C~75~6D~65~20~44~6F~77~6E", "AckM":""},
-        {"Cmd": "42",  "Ack":"56~6F~6C~75~6D~65~20~44~6F~77~6E", "AckM":""}
-      ],
-
-      "OutMute" : 
-      [
-        {"Cmd": "43",  "Ack":"56~6F~6C~75~6D~65~20~4D~75~74~65"}
-      ],
-
-      "OutUnMute" :
-      [
-        {"Cmd": "43",  "Ack":"56~6F~6C~75~6D~65~20~55~6E~4D~75~74~65"}
-      ],
-
-      "OutVolUp" :
-      [
-        {"Cmd": "41",  "Ack":"41~76~6F~6C~75~6D~65~20~55~50~0D~0A", "AckM":""}
-      ],
-
-      "OutVolDown" : 
-      [
-        {"Cmd": "42",  "Ack":"42~76~6F~6C~75~6D~65~20~44~6F~77~6E~0D~0A", "AckM":""}
-      ],
-
-      "ZoneMute" : 
-      [
-        {"Cmd": "43",  "Ack":"20~4D~0D~0A"}
-      ],
-
-      "ZoneUnMute" : 
-      [
-        {"Cmd": "43",  "Ack":"20~4D~0D~0A"}
-      ],
-
-
-      "ZoneVolUp" :
-      [ 
-        {"Cmd": "41",  "Ack":"41~76~6F~6C~75~6D~65~20~55~50~0D~0A", "AckM":""}
-      ],
-
-      "ZoneVolDown" : 
-      [
-        {"Cmd": "42",  "Ack":"42~76~6F~6C~75~6D~65~20~44~6F~77~6E~0D~0A", "AckM":""}
-      ],
-
-      "Preset" :
-      [
-        {"Cmd": "43",  "Ack":"43~56~6F~6C~20~4D~0D~0A"}
-      ]
-    }
-  } ,
+  
   "PL_MDSP_N":
  {
   "Settings":{"InChnlQty":"2","OutChnlQty":"1","ZoneQty":"0"},
@@ -403,6 +276,30 @@
    "ZoneVolUp":{"Cmd":[],"Ack":""},
    "ZoneVolDown":{"Cmd":[],"Ack":""}
   }
- } 
+ },
+ 
+"PL_PRODSP":
+{"Settings":{"InChnlQty":1,"OutChnlQty":1,"ZoneQty":1},
+"Inq":
+	{"DevStatus":{"Cmd":"EF~8A~07~00~FF~FE~FF~FF~EF~4A~07~FF~FE~FF~FF","Ack1":"EF~4A~07~00~FF~FE~FF~FF","Ack2":"","Ack3":""},
+	"InMute":{"Cmd":["EF~4A~00~FF~FE~FF~FF"],"AckMute":"EF~4A~00~01~FF~FE~FF~FF","AckUnMute":"EF~4A~00~00~FF~FE~FF~FF"},
+	"OutMute":{"Cmd":["EF~4A~10~FF~FE~FF~FF"],"AckMute":"EF~4A~10~01~FF~FE~FF~FF","AckUnMute":"EF~4A~10~00~FF~FE~FF~FF"},
+	"ZoneMute":{"Cmd":["EF~4A~04~FF~FE~FF~FF"],"AckMute":"EF~4A~04~01~FF~FE~FF~FF","AckUnMute":"EF~4A~04~00~FF~FE~FF~FF"}},
+	"Ctr":
+	{
+	"InMute":{"Cmd":["EF~8A~00~01~FF~FE~FF~FF~EF~8A~01~01~FF~FE~FF~FF~EF~8A~02~01~FF~FE~FF~FF~EF~8A~03~01~FF~FE~FF~FF~EF~4A~00~FF~FE~FF~FF"],"Ack":"EF~4A~00~01~FF~FE~FF~FF"},
+	"InUnMute":	{"Cmd":["EF~8A~00~00~FF~FE~FF~FF~EF~8A~01~00~FF~FE~FF~FF~EF~8A~02~00~FF~FE~FF~FF~EF~8A~03~00~FF~FE~FF~FF~EF~4A~00~FF~FE~FF~FF"],"Ack":"EF~4A~00~00~FF~FE~FF~FF"},
+	"InVolUp":{"Cmd":["EF~8E~00~FF~FE~FF~FF~EF~8E~01~FF~FE~FF~FF~EF~8E~02~FF~FE~FF~FF~EF~8E~03~FF~FE~FF~FF~EF~45~00~FF~FE~FF~FF"],"Ack":""},
+	"InVolDown":{"Cmd":["EF~8F~00~FF~FE~FF~FF~EF~8F~01~FF~FE~FF~FF~EF~8F~02~FF~FE~FF~FF~EF~8F~03~FF~FE~FF~FF~EF~45~00~FF~FE~FF~FF"],"Ack":""},
+	"OutMute":{"Cmd":["EF~8A~10~01~FF~FE~FF~FF~EF~8A~11~01~FF~FE~FF~FF~EF~8A~14~01~FF~FE~FF~FF~EF~8A~15~01~FF~FE~FF~FF~EF~4A~10~FF~FE~FF~FF"],"Ack":"EF~4A~10~01~FF~FE~FF~FF"},
+	"OutUnMute":{"Cmd":["EF~8A~10~00~FF~FE~FF~FF~EF~8A~11~00~FF~FE~FF~FF~EF~8A~14~00~FF~FE~FF~FF~EF~8A~15~00~FF~FE~FF~FF~EF~4A~10~FF~FE~FF~FF"],"Ack":"EF~4A~10~00~FF~FE~FF~FF"},
+	"OutVolUp":{"Cmd":["EF~8E~10~FF~FE~FF~FF~EF~8E~11~FF~FE~FF~FF~EF~8E~14~FF~FE~FF~FF~EF~8E~15~FF~FE~FF~FF~EF~45~10~FF~FE~FF~FF"],"Ack":""},
+	"OutVolDown":{"Cmd":["EF~8F~10~FF~FE~FF~FF~EF~8F~11~FF~FE~FF~FF~EF~8F~14~FF~FE~FF~FF~EF~8F~15~FF~FE~FF~FF~EF~45~10~FF~FE~FF~FF"],"Ack":""},
+	"ZoneMute":{"Cmd":["EF~8A~04~01~FF~FE~FF~FF~EF~8A~05~01~FF~FE~FF~FF~EF~8A~06~01~FF~FE~FF~FF~EF~8A~07~01~FF~FE~FF~FF~EF~4A~04~FF~FE~FF~FF"],"Ack":"EF~4A~04~01~FF~FE~FF~FF"},
+	"ZoneUnMute":{"Cmd":["EF~8A~04~00~FF~FE~FF~FF~EF~8A~05~00~FF~FE~FF~FF~EF~8A~06~00~FF~FE~FF~FF~EF~8A~07~00~FF~FE~FF~FF~EF~4A~04~FF~FE~FF~FF"],"Ack":"EF~4A~04~00~FF~FE~FF~FF"},
+	"ZoneVolUp":{"Cmd":["EF~8E~04~FF~FE~FF~FF~EF~8E~05~FF~FE~FF~FF~EF~8E~06~FF~FE~FF~FF~EF~8E~07~FF~FE~FF~FF~EF~45~04~FF~FE~FF~FF"],"Ack":""},
+	"ZoneVolDown":{"Cmd":["EF~8F~04~FF~FE~FF~FF~EF~8F~05~FF~FE~FF~FF~EF~8F~06~FF~FE~FF~FF~EF~8F~07~FF~FE~FF~FF~EF~45~00~FF~FE~FF~FF"],"Ack":""}
+	}
+} 
   
 }
