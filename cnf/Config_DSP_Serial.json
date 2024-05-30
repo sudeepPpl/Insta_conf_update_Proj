@@ -278,7 +278,7 @@
   }
  },
  
-"PL_PRODSP":
+"PL_PRODSP_115200":
 {"Settings":{"InChnlQty":1,"OutChnlQty":1,"ZoneQty":1},
 "Inq":
 	{"DevStatus":{"Cmd":"EF~8A~07~00~FF~FE~FF~FF~EF~4A~07~FF~FE~FF~FF","Ack1":"EF~4A~07~00~FF~FE~FF~FF","Ack2":"","Ack3":""},

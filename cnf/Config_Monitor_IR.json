@@ -93,7 +93,7 @@
     "CmdMovRight"   : "0xE0E046B9",
     "CmdMovLeft"    : "0xE0E0A659"
   },
-  "Peoplelink_A8" :
+  "Peoplelink_S_A8" :
   {
     "CmdPwrOnOff"   : "0x10EF827D",
 
@@ -111,7 +111,27 @@
     "CmdMovRight"   : "0x10EF748B",
     "CmdMovLeft"    : "0x10EFB44B"
   },
-  "Peoplelink_A10" :
+  
+  "Peoplelink_R" :
+  {
+    "CmdPwrOnOff"   : "0x8EF04AB5",
+
+    "CmdInput"      : "0x8EF0E01F",
+    "CmdSettings"   : "0x8EF002FD",
+    "CmdExit"       : "0x8EF050AF",
+    "CmdMuteUnmute" : "0x8EF0CA35",
+
+    "CmdVolUp"      : "0x8EF0C03F",
+    "CmdVolDown"    : "0x8EF0827D",
+
+    "CmdOk"         : "0x8EF052AD",       
+    "CmdMovUp"      : "0x8EF0021D",
+    "CmdMovDown"    : "0x8EF0B24D",
+    "CmdMovRight"   : "0x8EF0D22D",
+    "CmdMovLeft"    : "0x8EF0926D"
+  },   
+  
+  "Peoplelink_S_A10" :
   {
     "CmdPwrOnOff"   : "0x020250AF",
 

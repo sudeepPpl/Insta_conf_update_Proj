@@ -6,7 +6,7 @@
 		"Psw":"abcd",
 		"IPAddr":"192.168.2.161",
 		"Port":"80",
-		"Mode":"NM",
+		"Mode":"SM",
 		"logoPath":"logo.png",
 		"RelaySwitch":
 		[
